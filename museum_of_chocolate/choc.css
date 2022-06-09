@@ -1,0 +1,74 @@
+/*font family : font-family: 'Anton', sans-serif;
+font-family: 'Rajdhani', sans-serif;*/
+body {
+    background-color: #f8edeb;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#mainNavbar {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    font-family: 'Anton', sans-serif;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #562014;
+}
+
+#mainNavbar .navbar-brand {
+    color: #562014;
+    font-size: 2rem;
+    letter-spacing: 0.2rem
+}
+
+#HeadingGroup span {
+    color: #562014;
+}
+
+#HeadingGroup h2 {
+
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+@media(max-width:1150px) {
+    #HeadingGroup h2 {
+        font-size: 2.5rem;
+    }
+}
+
+#secondsection #icon {
+    max-width: 40px;
+    max-height: 40px;
+    margin: 0.4rem 0 0.5rem 0;
+}
+
+#secondsectioncontent h2 {
+    font-size: 2.5rem;
+    font-weight: 100px;
+    color: #562014;
+}
+
+#secondsectioncontent p {
+    font-size: 1.125rem;
+    font-weight: 100px;
+    color: #e07a5f;
+    line-height: 2;
+
+
+}
+
+.navbar.scrolled {
+    background: black;
+    transition: background 500ms;
+}
+
+@media(min-width:1200px) {
+    section #secondsection {
+        margin-top: 5rem;
+    }
+}
